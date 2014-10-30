@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:radius="@dimen/app_button_radius" />
+
+    <solid android:color="@color/activity_background_color" />
+
+    <stroke
+        android:width="@dimen/ll_border_line_05dp"
+        android:color="@color/line_color" />
+
+</shape>

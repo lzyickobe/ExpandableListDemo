@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="title_bar_height">50dip</dimen>
+    <dimen name="dialog_radius">8dp</dimen>
+    <dimen name="app_button_radius">4dp</dimen>
+    <dimen name="content_margin">8dp</dimen>
+    <dimen name="content_padding">8dp</dimen>
+    <dimen name="ll_border_line_05dp">0.5dp</dimen>
+    <dimen name="ll_border_radius">2dp</dimen>
+    <!-- 头像 的大小 -->
+    <dimen name="app_face_size">48dp</dimen>
+    <dimen name="ball_face_size">30dp</dimen>
+
+</resources>

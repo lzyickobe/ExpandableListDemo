@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="dialog_red">#ff5147</color>
+    <color name="button_light_color">#cccccccc</color>
+    <color name="line_color">#d2d2d2</color>
+    <color name="login_line_color">#F0F0F0</color>
+    <color name="bag_color">#FAFAFA</color>
+    <color name="click_color">#ffe7c5</color>
+    <color name="text_gray">#a9a9a9</color>
+<!--     <color name="activity_background_color">#f8f9fa</color> -->
+    <color name="activity_background_color">#f8f9fa</color>
+    <color name="activity_background_color_light">#88f8f9fa</color>
+    <color name="title_background_color">#ff8026</color>
+    <color name="title_text_color">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="click_color2">#2bb7fc</color>
+    <color name="ll_border_bg_color">#dddfe0</color>
+    <color name="common_dialog_line_bg_color">#cbcaca</color>
+    <color name="fafafa">#fafafa</color>
+    <color name="color_7a7a7a">#7a7a7a</color>
+    <color name="ball_view_line_color">#30ffffff</color>
+    
+    <color name="ball_item_color">#88000000</color>
+    
+
+</resources>

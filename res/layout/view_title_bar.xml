@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/title_bar_height"
+    android:background="@color/title_background_color"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rellayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/title_background_color" >
+
+        <TextView
+            android:id="@+id/tvTitleLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/title_bar_height"
+            android:background="@drawable/button_light_bg"
+            android:contentDescription="@string/app_name"
+            android:gravity="center"
+            android:minWidth="@dimen/title_bar_height"
+            android:padding="@dimen/content_padding"
+            android:textColor="@color/title_text_color"
+            android:textSize="16sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="@dimen/title_bar_height"
+            android:layout_marginRight="@dimen/title_bar_height"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/title_text_color"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/btnTitleEdit"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/title_bar_height"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/button_light_bg"
+            android:contentDescription="@string/app_name"
+            android:gravity="center"
+            android:minWidth="@dimen/title_bar_height"
+            android:padding="@dimen/content_padding"
+            android:textColor="@color/title_text_color"
+            android:textSize="16sp"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</LinearLayout>
